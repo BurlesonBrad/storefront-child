@@ -1,0 +1,195 @@
+/*
+Theme Name:   	Storefront child
+Theme URI:    	http://www.woothemes.com/storefront
+Author:       	WooThemes
+Author URI:		http://www.woothemes.com
+Template:      storefront
+Description:  	Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooThemes, it features a deep integration with our market leading WooCommerce plugin, several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customise and extend. Looking for a WooCommerce theme? Look no further!
+Version:      	1.6.1
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront-child
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+All sizing (typography, layout, padding/margins etc) are inspired by a modular scale that uses 12px/14px as base sizes with a 1.618 ratio.
+We use the excellent modular scale tool built by Tim Brown to calculate this. http://modularscale.com/scale/?px1=14&px2=12&ra1=1.618&ra2=0
+
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+
+.site-main {
+    margin-bottom: 0;
+}
+.hentry {
+    margin: 0 0 0;
+    padding-bottom: 0;
+}
+.content-area {
+    margin-bottom: 0;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: Georgia, Utopia, 'Times New Roman', Times, serif;
+    color: #555555;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 { font-weight:300; color:#666666; margin:0 0 13px 0; text-transform:none; font-family:Georgia, Utopia, 'Times New Roman', Times, serif; }
+h1 {color: #666666;font-weight:300;font-size:21px;line-height:21px; letter-spacing: 0px;}
+h2 { color: #666666; font-weight:300; font-size:12px; line-height:18px; }
+h3 { color: #666666; font-weight:300; font-size:36px; line-height:24px; }
+h4 { font-size: 13px; line-height: 18px; }
+h5 { font-size: 12px; line-height: 18px; }
+h6 { font-size: 10px; line-height: 18px; text-transform:uppercase; }
+h1 .note, h2 .note, h3 .note, h4 .note, h5 .note, h6 .note { margin-left: 8px; font-weight: 400; font-size: 12px; color: #555555; }
+h1 .note a, h2 .note a, h3 .note a, h4 .note a, h5 .note a, h6 .note a { color: #a8a8a8; }
+p { margin: 0 0 20px 0; }
+
+a:hover {
+    color: #020202;
+}
+
+.main-navigation ul li a {
+    color: #666666;
+    font-family: Georgia,Utopia,"Times New Roman",Times,serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.main-navigation ul {
+    padding-left: 15px;
+    text-align: center;
+}
+
+.main-navigation {
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    position: relative;
+    padding-top: 0;
+}
+
+.woocommerce-active .site-header .main-navigation {
+    width: 100%;
+}
+
+.main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+    padding: 0 15px;
+    line-height: 24px;
+}
+
+.secondary-navigation .menu {
+    float: none;
+}
+
+.secondary-navigation {
+    text-align: center;
+}
+
+.site-info {
+    text-align: center;
+    padding: 0;
+}
+
+.woocommerce-active .site-branding {
+    float: none;
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+
+.woocommerce-breadcrumb {
+    border: 0px;
+}
+
+.hentry {
+    border-bottom: initial;
+}
+
+.hentry .entry-header {
+    border: 0px;
+}
+
+.hentry .entry-header h1 {
+    border: 0px;
+}
+
+.col-full {
+    max-width: 996px;
+}
+
+input[type="search"] {
+    background-color: white;
+}
+
+.site-search .widget_product_search input[type=search], .site-search .widget_product_search input[type=text] {
+    padding: 0.8em 1.387em 0.8em 3.631em;
+    font-family: none, Georgia, Utopia, 'Times New Roman', Times, serif;
+}
+
+.woocommerce-active .site-header .site-search {
+    width: initial;
+}
+
+.current-menu-item {
+    float: right;
+}
+
+.site-header-cart .cart-contents {
+    padding: 1em 1em 2.244em;
+    position: absolute;
+}
+
+.site-header-cart .cart-contents:after {
+    content:initial;
+}
+
+.single-product div.product form.cart .quantity {
+    float: none;
+    margin-bottom: 20px;
+}
+
+.single-product div.product form.cart .button {
+    float: none;
+}
+
+.custom-homepage {
+    text-align: center;
+}
+
+
+.custom-homepage .alignleft {
+    float: none;
+    margin-right: 0;
+}
+
+body.home .gallery.gallery-columns-2 .gallery-item:nth-child(1) {
+    padding-right:5px;
+}
+
+
+body.home .gallery.gallery-columns-2 .gallery-item:nth-child(2) {
+    padding-left:5px;
+}
+
+.current-menu-item {
+    float: none;
+}
+
+ul.menu li.current-menu-item > a {
+    color: #000000;
+}
